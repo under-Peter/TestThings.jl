@@ -2,5 +2,6 @@ using TestThings
 using Test
 
 @testset "TestThings.jl" begin
-    # Write your own tests here.
+    @test foo([1,-1,3,4]) == 4
+    @test bar([1,-1,3,4]) == -1
 end
